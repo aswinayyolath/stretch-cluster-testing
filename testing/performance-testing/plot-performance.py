@@ -101,7 +101,6 @@ def plotBar(json_key,plot_x, plot_y,title,x_label,y_label):
 plotQuantiles('aggregatedEndToEndLatencyQuantiles',0,0,'aggregatedEndToEndLatencyQuantiles','Benchmark Progress Precentile','Aggregated End To End Latency (ms)')
 plotQuantiles('aggregatedPublishLatencyQuantiles',0,1,'aggregatedPublishLatencyQuantiles','Benchmark Progress Precentile','Aggregated Percentile Latency (ms)')
 
-# plotQuantiles('aggregatedPublishDelayLatencyQuantiles',1,0,'Benchmark testing results for stretched kafka cluster','Benchmark Progress Precentile','Aggregated Percentile Delay Latency (ms)')
 
 
 plotBar('publishRate',1,0,'Average Publish Rate','Network Technology','Number of Messages')
