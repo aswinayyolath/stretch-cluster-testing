@@ -167,4 +167,3 @@ MaxFollowerLag:         0
 MaxFollowerLagTimeMs:   271
 CurrentVoters:          [16,17,3,4,5,9,10,11,15]
 CurrentObservers:       [0,1,2,6,7,8,12,13,14]
-```
