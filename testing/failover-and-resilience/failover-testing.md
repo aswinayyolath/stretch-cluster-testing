@@ -122,7 +122,7 @@ rohananilkumar@Rohans-MacBook-Pro .kube % kubectl delete pod my-cluster-controll
 pod "my-cluster-controller-4" deleted
 ```
 
-### Verifying if new leader has been elected
+### New Leader Election Output
 ```bash
 sh-5.1$ ./kafka-metadata-quorum.sh --bootstrap-server my-cluster-kafka-bootstrap:9092 describe --status
 ClusterId:              6LKJ0UFeRwKeyU_G1HdZxg
