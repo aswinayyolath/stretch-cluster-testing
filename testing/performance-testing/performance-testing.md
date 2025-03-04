@@ -252,7 +252,7 @@ Three test iterations were performed for each environment to eliminate environme
 2. End to end Delay (ms)
 3. Publish Rate (messages/sec)
 4. Consume Rate (messages/sec)
-These results are copied to folders non-stretch, stretch-cilium and stretch-submariner.
+The results were stored in directories named non-stretch, stretch-cilium, and stretch-submariner.
 
 The plot for these look something like this:
 ![performance-plot](performance-plot.png)
