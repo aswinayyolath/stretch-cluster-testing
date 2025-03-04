@@ -116,7 +116,7 @@ CurrentObservers:       [0,1,2,6,7,8,12,13,14]
 ```
 The new leader is controller 4
 
-### Deleting leader 4
+### Deleting Controller 4
 ```bash
 rohananilkumar@Rohans-MacBook-Pro .kube % kubectl delete pod my-cluster-controller-4 -n real --kubeconfig config-test-a
 pod "my-cluster-controller-4" deleted
