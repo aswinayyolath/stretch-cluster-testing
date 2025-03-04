@@ -37,7 +37,7 @@ strimzi-cluster-operator-v0.44.0-6c4f95869b-2qgjg   1/1     Running   0         
 
 ## Topic availability and leader election testing
 
-### create topic with all brokers participating
+### create a topic with all brokers participating
 ```bash
 sh-5.1$ ./kafka-topics.sh --create --bootstrap-server my-cluster-kafka-bootstrap:9092 --replication-factor 9 --partitions 3 --topic long-replicated-topic
 Created topic long-replicated-topic.
