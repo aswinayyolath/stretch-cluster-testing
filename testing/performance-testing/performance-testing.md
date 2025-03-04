@@ -1,7 +1,7 @@
 # Performance Testing
 
 ## Open messaging benchmark framework
-The Open messaging benchmark framework was used for benchmarking the stretch kafka clusters. By following this tutorial https://community.ibm.com/community/user/integration/blogs/dale-lane1/2025/02/03/running-openmessaging-benchmarks we were able to get benchmark results for three configurations
+The Open Messaging Benchmark framework was used to benchmark the stretch Kafka clusters. By following this [tutorial](https://community.ibm.com/community/user/integration/blogs/dale-lane1/2025/02/03/running-openmessaging-benchmarks), we obtained benchmark results for three configurations:
  - Regular kafka cluster
  - Stretch kafka cluster using submariner
  - Stretch kafka cluster using cilium
