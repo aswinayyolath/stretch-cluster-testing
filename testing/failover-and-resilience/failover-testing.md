@@ -83,7 +83,7 @@ Conclusion: The topic remains stable and leader election happens normally even a
 
 ## Controller leader election test
 
-### Checking the leader before tests
+### Checking Initial Leader
 ```bash
 sh-5.1$ ./kafka-metadata-quorum.sh --bootstrap-server my-cluster-kafka-bootstrap:9092 describe --status
 ClusterId:              6LKJ0UFeRwKeyU_G1HdZxg
