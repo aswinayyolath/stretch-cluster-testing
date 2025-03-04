@@ -1,5 +1,11 @@
 # Failover Testing
 ```bash
+This document provides a detailed guide on testing failover scenarios, leader election, and topic availability in a multi-cluster Kafka deployment. 
+
+### Cluster Setup
+
+The Kafka clusters are deployed across multiple Kubernetes clusters, as shown below
+
 rohananilkumar@Rohans-MacBook-Pro .kube % kubectl get pods -n real --kubeconfig config-test-a
 NAME                                                READY   STATUS    RESTARTS   AGE
 my-cluster-broker-0                                 1/1     Running   0          3h56m
