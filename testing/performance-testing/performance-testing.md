@@ -256,7 +256,7 @@ The results were stored in directories named non-stretch, stretch-cilium, and st
 
 The plotted results are shown below:
 ![performance-plot](performance-plot.png)
-The three plots for each color represents the plot for 3 iterations for each configurations.
+Each color in the graph represents the three test iterations for each configuration
 
 
 ## Conclusion
