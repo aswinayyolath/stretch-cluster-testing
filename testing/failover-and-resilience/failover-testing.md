@@ -96,7 +96,7 @@ CurrentVoters:          [16,17,3,4,5,9,10,11,15]
 CurrentObservers:       [0,1,2,6,7,8,12,13,14]
 ```
 
-### Deleteing leader 5
+### Deleting Controller 5
 ```bash
 rohananilkumar@Rohans-MacBook-Pro .kube % kubectl delete pod my-cluster-controller-5 -n real --kubeconfig config-test-a
 pod "my-cluster-controller-5" deleted
