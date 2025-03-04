@@ -1,4 +1,7 @@
 # Failover Testing
+
+## Current configuration
+We have 3 brokers and 3 controllers on each of the clusters.
 ```bash
 This document provides a detailed guide on testing failover scenarios, leader election, and topic availability in a multi-cluster Kafka deployment. 
 
