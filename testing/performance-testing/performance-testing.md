@@ -9,7 +9,7 @@ The Open Messaging Benchmark framework was used to benchmark the stretch Kafka c
 The Open messaging benchmark framework deploys 8 benchmark workers and one driver in the K8s environment. Once the tests start, the driver employs the workers to produce/consume messages to the cluster using its bootstrap url.
 
 ## Configuration
-For all the stretched kafka cluster configurations, the OCP/K8s clusters were in the same data centers hence minimizing the network latency and shifting the focus on the additional latency provided by the tools in use.
+For all the stretched Kafka cluster configurations, the OpenShift (OCP)/K8s clusters were located in the same data centers, minimizing network latency and focusing on the additional latency introduced by the networking tools in use.
 
 ### Regular Kafka cluster
 We have used a regular kraft kafka cluster using 3 brokers and 3 controllers and ephemeral storage. This CR was applied in an OCP environment.
