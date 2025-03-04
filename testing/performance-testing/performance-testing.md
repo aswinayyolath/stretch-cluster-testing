@@ -254,7 +254,7 @@ Three test iterations were performed for each environment to eliminate environme
 4. Consume Rate (messages/sec)
 The results were stored in directories named non-stretch, stretch-cilium, and stretch-submariner.
 
-The plot for these look something like this:
+The plotted results are shown below:
 ![performance-plot](performance-plot.png)
 The three plots for each color represents the plot for 3 iterations for each configurations.
 
