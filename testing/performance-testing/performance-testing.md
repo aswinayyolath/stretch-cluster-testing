@@ -258,6 +258,13 @@ The plotted results are shown below:
 ![performance-plot](performance-plot.png)
 The three plots for each color represents the plot for 3 iterations for each configurations.
 
-The findings are clear. The stretched kafka cluster with submariner provided too much additional latency to be comparable with the regular kafka cluster while cilium provides comparable levels of performance with the regular kafka cluster.
+
+## Conclusion
+The results indicate that:
+
+- The stretched Kafka cluster with Submariner introduces significant additional latency, making it less comparable to the regular Kafka cluster.
+- The stretched Kafka cluster with Cilium provides performance levels comparable to the regular Kafka cluster.
+
+Thus, Cilium appears to be the better choice for implementing stretched Kafka clusters while maintaining acceptable performance levels.
 
 
